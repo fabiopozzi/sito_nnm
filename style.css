@@ -357,6 +357,10 @@ a.text-muted:hover {
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.inner2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
 footer .inner {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -5319,7 +5323,7 @@ pre {
     .navbar.wide.bg-dark .dropdown-menu,
     .navbar.dark-wrapper.inverse-text,
     .navbar.dark-wrapper.inverse-text .dropdown-menu {
-	    background: #161616 !important
+	    /* background: #161616 !important */
 	}
 	.navbar:not(.fixed) .navbar-collapse.bg-dark.bg-dark-opacity {
 	    background: rgba(0,0,0,0.7) !important
@@ -5328,8 +5332,8 @@ pre {
 	    background: none !important
 	}
     .navbar:not(.fixed) .navbar-header {
-	    padding-top: 25px !important;
-	    padding-bottom: 25px !important;
+	    padding-top: 20px !important;
+	    padding-bottom: 20px !important;
     }
     .navbar .social-wrapper,
     .navbar .info-wrapper {
@@ -5490,7 +5494,7 @@ pre {
         padding-bottom: 20px;
     }
     .flickity-carousel img,
-    .flickity-slider-main .item,    
+    .flickity-slider-main .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) .item,
 	.flickity-slider-main:not(.flickity-viewport-mode) img {
         height: 450px;
@@ -5549,6 +5553,10 @@ pre {
         padding-right: 20px;
         padding-left: 20px;
     }
+    .inner {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
     .cbp-l-inline .container {
 	    padding-left: 0px;
         padding-right: 0px
@@ -5558,8 +5566,8 @@ pre {
         padding-right: 0px
     }
     .navbar .navbar-header {
-        padding-left: 30px;
-        padding-right: 30px;
+        padding-left: 10px;
+        padding-right: 20px;
     }
 	.flickity-carousel.flickity-viewport-mode {
 	    text-align: center !important;
@@ -5645,6 +5653,12 @@ pre {
 	.blog-filter ul {
 	    padding: 0;
 	}
+    .sub-heading2 {
+        font-size: 18px;
+        line-height: 25px;
+        font-weight: 300;
+        margin-bottom: 10px;
+    }
 }
 
 .abc {
