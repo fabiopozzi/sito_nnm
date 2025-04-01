@@ -3194,11 +3194,19 @@ figure.overlay img {
 .accordion-wrapper .card-header a {
     color: #404040;
     display: block;
+    font-size: 24px;
 }
+.accordion-wrapper .card-header p {
+    color: #404040;
+    display: block;
+    font-size: 20px;
+}
+
 .accordion-wrapper .card-header>* {
     margin: 0;
     font-size: 18px;
     line-height: 30px;
+    font-family: "Montserrat", serif;
 }
 .accordion-wrapper .card-header a:after {
     font-family: 'FontAwesome';
@@ -5128,6 +5136,7 @@ pre {
 /*-----------------------------------------------------------------------------------*/
 .inner-custom {
     padding-top: 150px;
+    padding-bottom: 50px;
 }
 /*-----------------------------------------------------------------------------------*/
 /*	43. BOX LAYOUT
@@ -5566,6 +5575,7 @@ pre {
     }
     .inner-custom {
         padding-top: 100px;
+        padding-bottom: 50px;
     }
     .cbp-l-inline .container {
 	    padding-left: 0px;
